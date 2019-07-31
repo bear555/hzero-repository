@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e2bf33d-ec40-4852-b42d-f49247892e80" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/demo-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/hzero-register/target/" />
+    <ignored path="$PROJECT_DIR$/hzero-config/target/" />
+    <ignored path="$PROJECT_DIR$/hzero-oauth/target/" />
+    <ignored path="$PROJECT_DIR$/hzero-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/hzero-swagger/target/" />
+    <ignored path="$PROJECT_DIR$/hzero-iam/target/" />
+    <ignored path="$PROJECT_DIR$/hzero-todo-service/target/" />
+    <ignored path="$PROJECT_DIR$/hzero-platform/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/api/controller/v1/TaskController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>doPage</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demo-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-gateway/src/main/java/hzeroparent/demogateway/DemoGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/hzero-gateway/src/main/java/hzeroparent/hzerogateway/HzeroGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/hzero-config/src/main/java/hzeroparent/hzeroconfig/HzeroConfigApplication.java" />
+        <option value="$PROJECT_DIR$/hzero-iam/src/main/java/hzeroparent/hzeroiam/HzeroIamApplication.java" />
+        <option value="$PROJECT_DIR$/hzero-oauth/src/main/java/hzeroparent/hzerooauth/HzeroOauthApplication.java" />
+        <option value="$PROJECT_DIR$/hzero-swagger/src/main/java/hzeroparent/hzeroswagger/HzeroSwaggerApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/hzero-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/hzero-register/src/test/java/hzeroparent/hzeroregister/HzeroRegisterApplicationTests.java" />
+        <option value="$PROJECT_DIR$/hzero-iam/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hzero-oauth/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hzero-oauth/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/hzero-register/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hzero-register/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/hzero-register/src/main/java/hzeroparent/hzeroregister/HzeroRegisterApplication.java" />
+        <option value="$PROJECT_DIR$/hzero-iam/pom.xml" />
+        <option value="$PROJECT_DIR$/hzero-oauth/pom.xml" />
+        <option value="$PROJECT_DIR$/hzero-config/pom.xml" />
+        <option value="$PROJECT_DIR$/hzero-register/pom.xml" />
+        <option value="$PROJECT_DIR$/hzero-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/hzero-oauth/src/test/java/hzeroparent/hzerooauth/HzeroOauthApplicationTests.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/test/java/org/hzero/todo/HzeroTodoServiceApplicationTests.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/init-local-database.sh" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/domain/todo/entity/User.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/domain/todo/entity/Task.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/domain/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/domain/repository/TaskRepository.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/infra/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/infra/mapper/TaskMapper.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/resources/mapper/TaskMapper.xml" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/infra/repository/impl/UserRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/app/service/UserService.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/app/service/TaskService.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/config/SwaggerApiConfig.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/api/controller/v1/UserController.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/infra/repository/impl/TaskRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/api/controller/v1/TaskController.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/app/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/app/service/impl/TaskServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/config/TodoExtraDataManager.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/pom.xml" />
+        <option value="$PROJECT_DIR$/hzero-platform/pom.xml" />
+        <option value="$PROJECT_DIR$/hzero-platform/src/main/java/hzeroparent/hzeroplatform/HzeroPlatformApplication.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/config/CustomWebSecurityConfigurerAdapter.java" />
+        <option value="$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/HzeroTodoServiceApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.1" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="563" />
+    <option name="y" value="12" />
+    <option name="width" value="762" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hzero-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzero-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hzero-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hzero-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="hzero-todo-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hzero-platform/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15384616" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.hzero.todo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git_worksapce\hzero-parent\hzero-platform\src\main\resources" />
+      <recent name="D:\git_worksapce\hzero-parent\hzero-todo-service\src\main\resources" />
+      <recent name="D:\git_worksapce\hzero-parent\hzero-swagger\src\main\resources" />
+      <recent name="D:\git_worksapce\hzero-parent\hzero-oauth\src\main\resources" />
+      <recent name="D:\git_worksapce\hzero-parent\hzero-iam\src\main\resources" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 9 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 9 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="hzero-todo-service" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.27743432" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.HzeroPlatformApplication">
+    <configuration name="HzeroRegisterApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hzero-register" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hzeroparent.hzeroregister.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hzeroparent.hzeroregister" />
+      <option name="MAIN_CLASS_NAME" value="hzeroparent.hzeroregister.HzeroRegisterApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HzeroConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hzero-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hzeroparent.hzeroconfig.HzeroConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HzeroGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hzero-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hzeroparent.hzerogateway.HzeroGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HzeroIamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hzero-iam" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hzeroparent.hzeroiam.HzeroIamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HzeroOauthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hzero-oauth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hzeroparent.hzerooauth.HzeroOauthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HzeroPlatformApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hzero-platform" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hzeroparent.hzeroplatform.HzeroPlatformApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HzeroRegisterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hzero-register" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hzeroparent.hzeroregister.HzeroRegisterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HzeroSwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hzero-swagger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hzeroparent.hzeroswagger.HzeroSwaggerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HzeroTodoServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hzero-todo-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.hzero.todo.HzeroTodoServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.HzeroRegisterApplicationTests" />
+      <item itemvalue="Spring Boot.HzeroRegisterApplication" />
+      <item itemvalue="Spring Boot.HzeroGatewayApplication" />
+      <item itemvalue="Spring Boot.HzeroConfigApplication" />
+      <item itemvalue="Spring Boot.HzeroOauthApplication" />
+      <item itemvalue="Spring Boot.HzeroIamApplication" />
+      <item itemvalue="Spring Boot.HzeroSwaggerApplication" />
+      <item itemvalue="Spring Boot.HzeroTodoServiceApplication (1)" />
+      <item itemvalue="Spring Boot.HzeroPlatformApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HzeroRegisterApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e2bf33d-ec40-4852-b42d-f49247892e80" name="Default Changelist" comment="" />
+      <created>1564382202630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564382202630</updated>
+      <workItem from="1564382205138" duration="2409000" />
+      <workItem from="1564389427129" duration="1659000" />
+      <workItem from="1564410058187" duration="1238000" />
+      <workItem from="1564447073975" duration="2613000" />
+      <workItem from="1564454877755" duration="11709000" />
+      <workItem from="1564477464043" duration="417000" />
+      <workItem from="1564477901618" duration="6484000" />
+      <workItem from="1564532664086" duration="12677000" />
+      <workItem from="1564555242969" duration="14728000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="HzeroRegisterApplicationTests - 2019.07.30 at 11h 11m 57s.xml">
+      <configuration name="HzeroRegisterApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HzeroRegisterApplicationTests - 2019.07.30 at 11h 12m 08s.xml">
+      <configuration name="HzeroRegisterApplicationTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="53934000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27912253" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.34590164" />
+      <window_info anchor="bottom" id="MyBatis Log" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.40983605" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.45737705" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="9" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50075644" side_tool="true" weight="0.60983604" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49924356" weight="0.4295082" />
+      <window_info anchor="bottom" id="Version Control" order="18" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="19" visible="true" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.21104388" />
+      <window_info anchor="right" id="RestServices" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.24962178" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25945538" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.40819672" />
+      <window_info anchor="bottom" id="MyBatis Log" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.40983605" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.53934425" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="9" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50075644" side_tool="true" weight="0.60983604" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49924356" weight="0.5229508" />
+      <window_info anchor="bottom" id="Version Control" order="18" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="19" visible="true" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.17397882" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="RestServices" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hzero-register/src/main/java/hzeroparent/hzeroregister/HzeroRegisterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-iam/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/apache-maven-3.6.1/org/hzero/hzero-gateway/0.10.0.RELEASE/hzero-gateway-0.10.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="72" column="26" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-oauth/src/test/java/hzeroparent/hzerooauth/HzeroOauthApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/test/java/org/hzero/todo/HzeroTodoServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/init-local-database.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/domain/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1719#1720#0" expanded="true" />
+            <element signature="e#1747#1748#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#1821#1822#0" expanded="true" />
+            <element signature="e#1877#1878#0" expanded="true" />
+            <element signature="e#1925#1926#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2063#2064#0" expanded="true" />
+            <element signature="e#2115#2116#0" expanded="true" />
+            <element signature="e#2147#2148#0" expanded="true" />
+            <element signature="e#2175#2176#0" expanded="true" />
+            <element signature="e#2217#2218#0" expanded="true" />
+            <element signature="e#2251#2252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/resources/mapper/TaskMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/io/choerodon/choerodon-starter-mybatis-mapper/0.8.1.RELEASE/choerodon-starter-mybatis-mapper-0.8.1.RELEASE.jar!/io/choerodon/mybatis/pagehelper/PageHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/domain/entity/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201">
+          <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#1718#1719#0" expanded="true" />
+            <element signature="e#1782#1783#0" expanded="true" />
+            <element signature="e#1813#1814#0" expanded="true" />
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1902#1903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/app/service/TaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/infra/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/app/service/impl/TaskServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="729" column="49" selection-start-line="729" selection-start-column="49" selection-end-line="729" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-config/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/org/hzero/starter/hzero-starter-mybatis-mapper/0.8.0.RELEASE/hzero-starter-mybatis-mapper-0.8.0.RELEASE.jar!/io/choerodon/mybatis/common/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/io/choerodon/iam-service/0.15.0.RELEASE/iam-service-0.15.0.RELEASE.jar!/io/choerodon/iam/infra/mapper/AccessTokenMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/io/choerodon/iam-service/0.15.0.RELEASE/iam-service-0.15.0.RELEASE.jar!/io/choerodon/iam/infra/mapper/AuditMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/infra/mapper/TaskMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/config/TodoExtraDataManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-swagger/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding>
+            <element signature="n#repositories#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-platform/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-platform/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-platform/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-platform/src/main/java/hzeroparent/hzeroplatform/HzeroPlatformApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/domain/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/domain/repository/TaskRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/app/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/app/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/config/SwaggerApiConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/api/controller/v1/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/config/CustomWebSecurityConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/infra/repository/impl/TaskRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/infra/repository/impl/UserRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/domain/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/domain/service/ITaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/HzeroTodoServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/org/hzero/starter/hzero-starter-core/0.8.0.RELEASE/hzero-starter-core-0.8.0.RELEASE.jar!/io/choerodon/swagger/annotation/Permission.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/apache-maven-3.6.1/io/choerodon/choerodon-starter-core/0.8.1.RELEASE/choerodon-starter-core-0.8.1.RELEASE.jar!/io/choerodon/core/iam/ResourceLevel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hzero-todo-service/src/main/java/org/hzero/todo/api/controller/v1/TaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hzero-todo-service</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
