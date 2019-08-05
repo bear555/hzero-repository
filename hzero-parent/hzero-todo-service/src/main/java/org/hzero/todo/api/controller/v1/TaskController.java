@@ -1,14 +1,17 @@
 package org.hzero.todo.api.controller.v1;
 
 
+import com.mysql.jdbc.log.Log;
 import io.choerodon.core.domain.Page;
 import io.choerodon.core.iam.ResourceLevel;
 import io.choerodon.mybatis.pagehelper.domain.PageRequest;
 import io.choerodon.swagger.annotation.Permission;
 import io.swagger.annotations.*;
+import org.hzero.boot.platform.code.builder.CodeRuleBuilder;
 import org.hzero.core.base.BaseController;
 import org.hzero.core.util.Results;
 import org.hzero.mybatis.helper.SecurityTokenHelper;
+import org.hzero.todo.api.dto.CodeRuleDTO;
 import org.hzero.todo.app.service.TaskService;
 import org.hzero.todo.config.SwaggerApiConfig;
 import org.hzero.todo.domain.entity.Task;
@@ -16,6 +19,9 @@ import org.hzero.todo.domain.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 任务接口(全是租户级接口)
@@ -28,6 +34,8 @@ public class TaskController extends BaseController {
     private final TaskService taskService;
 
     private final TaskRepository taskRepository;
+
+
 
     @Autowired
     public TaskController(TaskService taskService, TaskRepository taskRepository) {
@@ -56,7 +64,7 @@ public class TaskController extends BaseController {
         return Results.success(taskService.create(task));
     }
 
-    @Permission(level = ResourceLevel.SITE)
+    @Permission(level = ResourceLevel.ORGANIZATION)
     @ApiOperation(value = "更新task")
     @PutMapping
     public ResponseEntity<Task> update(@PathVariable("organizationId") Long tenantId, @RequestBody Task task) {
@@ -67,7 +75,7 @@ public class TaskController extends BaseController {
         return Results.success(taskService.update(task));
     }
 
-    @Permission(level = ResourceLevel.SITE)
+    @Permission(level = ResourceLevel.ORGANIZATION)
     @ApiOperation(value = "根据taskNumber查询task")
     @ApiImplicitParams({
             @ApiImplicitParam(value = "任务编号", paramType = "string")
@@ -82,5 +90,7 @@ public class TaskController extends BaseController {
     @DeleteMapping("/{taskNumber}")
     public void deleteByTaskNumber(@PathVariable Long organizationId, @PathVariable @ApiParam(value = "任务编号") String taskNumber) {
         taskService.deleteByTaskNumber(taskNumber);
+
     }
+
 }

@@ -1,5 +1,6 @@
 package org.hzero.todo.app.service;
 
+import org.hzero.boot.platform.code.builder.CodeRuleBuilder;
 import org.hzero.todo.domain.entity.User;
 
 /**
@@ -21,4 +22,7 @@ public interface UserService {
      * @param userId 用户ID
      */
     void delete(Long userId);
+
+
+
 }

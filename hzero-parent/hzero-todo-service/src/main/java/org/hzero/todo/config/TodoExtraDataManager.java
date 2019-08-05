@@ -22,8 +22,8 @@ public class TodoExtraDataManager implements ExtraDataManager {
     @Override
     public ExtraData getData() {
         ChoerodonRouteData choerodonRouteData = new ChoerodonRouteData();
-        choerodonRouteData.setName("htdo");
-        choerodonRouteData.setPath("/todo/**");
+        choerodonRouteData.setName("todo25815");
+        choerodonRouteData.setPath("/todo25815/**");
         choerodonRouteData.setServiceId("hzero-todo-service");
         extraData.put(ExtraData.ZUUL_ROUTE_DATA, choerodonRouteData);
         return extraData;

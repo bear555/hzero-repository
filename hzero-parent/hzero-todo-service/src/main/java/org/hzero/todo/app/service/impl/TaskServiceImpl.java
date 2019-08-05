@@ -2,6 +2,7 @@ package org.hzero.todo.app.service.impl;
 
 import io.choerodon.core.exception.CommonException;
 
+import org.hzero.boot.platform.code.builder.CodeRuleBuilder;
 import org.hzero.todo.app.service.TaskService;
 import org.hzero.todo.domain.entity.Task;
 import org.hzero.todo.domain.repository.TaskRepository;
@@ -18,11 +19,18 @@ public class TaskServiceImpl implements TaskService {
     @Autowired
     private TaskRepository taskRepository;
 
+    @Autowired
+    private CodeRuleBuilder codeRuleBuilder;
+
     @Override
     @Transactional(rollbackFor = Exception.class)
     public Task create(Task task) {
         // 生成任务编号
-        task.generateTaskNumber();
+//        task.generateTaskNumber();
+
+        String number=codeRuleBuilder.generateCode(119L,"ORA-25815","GLOBAL","GLOBAL",null);
+
+        task.setTaskNumber(number);
         // 插入数据
         taskRepository.insert(task);
         return task;

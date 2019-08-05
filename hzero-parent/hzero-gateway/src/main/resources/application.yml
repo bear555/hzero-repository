@@ -23,6 +23,7 @@ spring:
       max-request-size: 30MB
   redis:
     host: ${SPRING_REDIS_HOST:redis.hzero.org}
+#    host: ${SPRING_REDIS_HOST: 172.16.211.160:10179}
     port: ${SPRING_REDIS_PORT:6379}
     database: ${SPRING_REDIS_DATABASE:4}
     jedis:

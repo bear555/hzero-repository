@@ -1,42 +1,82 @@
-﻿eureka:
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://db.hzero.org:3306/todo?useUnicode=true&characterEncoding=utf-8&useSSL=false}
+    username: ${SPRING_DATASOURCE_USERNAME:hzero}
+    password: ${SPRING_DATASOURCE_PASSWORD:hzero}
+  redis:
+    host: ${SPRING_REDIS_HOST:172.16.211.161}
+    port: ${SPRING_REDIS_PORT:6379}
+    database: ${SPRING_REDIS_DATABASE:1}
+    jedis:
+      pool:
+        # 资源池中最大连接数
+        # 默认8，-1表示无限制；可根据服务并发redis情况及服务端的支持上限调整
+        max-active: ${SPRING_REDIS_POOL_MAX_ACTIVE:50}
+        # 资源池运行最大空闲的连接数
+        # 默认8，-1表示无限制；可根据服务并发redis情况及服务端的支持上限调整，一般建议和max-active保持一致，避免资源伸缩带来的开销
+        max-idle: ${SPRING_REDIS_POOL_MAX_IDLE:50}
+        # 当资源池连接用尽后，调用者的最大等待时间(单位为毫秒)
+        # 默认 -1 表示永不超时，设置5秒
+        max-wait: ${SPRING_REDIS_POOL_MAX_WAIT:5000}
+eureka:
   instance:
-    # 以IP注册到注册中心
-    preferIpAddress: ${EUREKA_INSTANCE_PREFER_IP_ADDRESS:true}
-    leaseRenewalIntervalInSeconds: 5
-    leaseExpirationDurationInSeconds: 10
-    # 服务的一些元数据信息
+    preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 3
     metadata-map:
       VERSION: 0.10.0
   client:
     serviceUrl:
-      # 注册中心地址，多个用逗号隔开
-      defaultZone: ${EUREKA_DEFAULT_ZONE:http://dev.hzero.org:8000/eureka}
-    registryFetchIntervalSeconds: 10
-    disable-delta: true
+      defaultZone: http://172.16.211.161:8000/eureka/
 
+# MyBatis Mapper 扫描
 mybatis:
   mapperLocations: classpath*:/mapper/*.xml
-  configuration: # 数据库下划线转驼峰配置
+  configuration:
     mapUnderscoreToCamelCase: true
+
+
+#hzero配置
+hezeo:
+  import:
+    init-table: true
+  scheduler:
+    auto-register: false
+#    executor-code: DEMO-EXECUTOR
 
 choerodon:
   resource:
     pattern: /v1/*
-
+# 日志配置
 logging:
   level:
-    org.apache.ibatis: ${LOGGING_LEVEL:debug}
-    io.choerodon: ${LOGGING_LEVEL:debug}
-    org.hzero: ${LOGGING_LEVEL:debug}
+    org.hzero: ${LOG_LEVEL:debug}
+    org.apache.ibatis: ${LOG_LEVEL:debug}
+    io.choerodon: ${LOG_LEVEL:debug}
 
-#spring:
-#  cloud:
-#    inetutils:
-#      # 本地多网卡时，忽略回环网卡
-#      ignored-interfaces[0]: lo
-#      # 本地多网卡时，选择注册的网段
-#      preferred-networks[0]: xx.xx
+hystrix:
+  threadpool:
+    default:
+      # 执行命令线程池的核心线程数，也是命令执行的最大并发量
+      # 默认10
+      coreSize: 1000
+      # 最大执行线程数
+      maximumSize: 1000
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            # HystrixCommand 执行的超时时间，超时后进入降级处理逻辑。一个接口，理论的最佳响应速度应该在200ms以内，或者慢点的接口就几百毫秒。
+            # 默认 1000 毫秒，最高设置 2000足矣。如果超时，首先看能不能优化接口相关业务、SQL查询等，不要盲目加大超时时间，否则会导致线程堆积过多，hystrix 线程池卡死，最终服务不可用。
+            timeoutInMilliseconds: ${HYSTRIX_COMMAND_TIMEOUT_IN_MILLISECONDS:40000}
 
-spring:
-  application:
-    name: hzero-todo-service
+ribbon:
+  # 客户端读取超时时间，超时时间要小于Hystrix的超时时间，否则重试机制就无意义了
+  ReadTimeout: ${RIBBON_READ_TIMEOUT:30000}
+  # 客户端连接超时时间
+  ConnectTimeout: ${RIBBON_CONNECT_TIMEOUT:3000}
+  # 访问实例失败(超时)，允许自动重试，设置重试次数，失败后会更换实例访问，请一定确保接口的幂等性，否则重试可能导致数据异常。
+  OkToRetryOnAllOperations: true
+  MaxAutoRetries: 1
+  MaxAutoRetriesNextServer: 1
