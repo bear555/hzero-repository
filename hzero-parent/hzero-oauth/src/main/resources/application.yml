@@ -39,6 +39,10 @@ spring:
     throw-exception-if-no-handler-found: true
   thymeleaf:
     mode: LEGACYHTML5
+  social:
+    wechat:
+      app-id: ${SPRING_SOCIAL_WECHAT_APP-ID:wxf02f4957d7bae5d5}
+      app-secret: ${SPRING_SOCIAL_WECHAT_APP-SECRET:4b45ff868b20d117723493b7f8976916}
 
 server:
   servlet:
@@ -134,28 +138,27 @@ hzero:
       # 前端默认模板
       default-template: ${HZERO_OAUTH_LOGIN_DEFAULT_TEMPLATE:main}
       # 默认登录成功跳转地址
-      success-url: ${HZERO_OAUTH_LOGIN_SUCCESS_URL:http://hzeronf.saas.hand-china.com/workplace}
+      success-url: ${HZERO_OAUTH_LOGIN_SUCCESS_URL:http://dev.hzero.org/workplace}
     logout:
       # 退出时是否清理token
       clear-token: ${HZERO_OAUTH_LOGOUT_CLEAR_TOKEN:true}
-  data:
+    sso:
+      # 启用二级域名单点登录
+      enabled: ${HZERO_OAUTH_SSO_ENABLED:true}
+      provider:
+        # 用于cas
+        key: ${HZERO_OAUTH_SSO_PROVIDER_KEY:hzero}
+      service: 
+        baseUrl: ${HZERO_OAUTH_SSO_SERVICE_BASE_URL:http://dev.hzero.org:8080/oauth/oauth}
+  data: 
     permission:
       # 数据库所有者模式，例如 SqlServer 下的 dbo/guest
       db-owner: ${HZERO_DB_OWNER:}
-  ### Cas 配置 ###
-  cas:
-    enabled: false
-    server:
-      base-url: http://sso.server.com:8443/cas
-    service:
-      base-url: http://127.0.0.1:8020/oauth
-      failure-handler-url: http://sso.server.com:8443/cas/login
-
-
 
 logging:
   level:
     org.jasig.cas: ${LOG_LEVEL:debug}
     org.hzero: ${LOG_LEVEL:debug}
     io.choerodon: ${LOG_LEVEL:debug}
+    org.springframework.security.cas: ${LOG_LEVEL:debug}
 

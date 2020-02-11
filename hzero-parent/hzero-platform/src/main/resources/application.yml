@@ -95,6 +95,9 @@ hzero:
     role-template-codes:
       - ${HZERO_SALES_TEMPLATE_CODE:role/organization/default/template/sales}
       - ${HZERO_EXPERTS_TEMPLATE_CODE:role/organization/default/template/experts}
+    regist-entity:
+    # 开启实体类的注册
+      enable: true
   data:
     permission:
       db-owner: ${HZERO_DB_OWNER:}
@@ -104,6 +107,7 @@ hzero:
 logging:
   level:
     io.choerodon: ${LOG_LEVEL:info}
-    org.hzero.mybatis: ${LOG_LEVEL:info}
+    org.hzero.mybatis: ${LOG_LEVEL:debug}
     org.hzero.platform: ${LOG_LEVEL:debug}
+    org.hzero.starter: ${LOG_LEVEL:debug}
     org.hzero.plugin.platform: ${LOG_LEVEL:info}

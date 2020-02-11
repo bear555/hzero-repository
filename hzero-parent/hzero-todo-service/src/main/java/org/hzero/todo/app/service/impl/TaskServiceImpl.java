@@ -46,8 +46,7 @@ public class TaskServiceImpl implements TaskService {
         // 更新指定字段
         taskRepository.updateOptional(task,
                 Task.FIELD_STATE,
-                Task.FIELD_TASK_DESCRIPTION
-        );
+                Task.FIELD_TASK_DESCRIPTION);
         return task;
     }
 

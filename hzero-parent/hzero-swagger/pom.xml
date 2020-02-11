@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.hzero</groupId>
         <artifactId>hzero-parent</artifactId>
-        <version>0.10.0.RELEASE</version>
+        <version>0.11.0.RELEASE</version>
     </parent>
     <groupId>org.hzero.train</groupId>
     <artifactId>hzero-swaggr</artifactId>

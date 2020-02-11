@@ -14,7 +14,6 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 
 @ComponentScan(value = {
@@ -28,7 +27,6 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableObjectMapper
 @SpringBootApplication
 @EnableDiscoveryClient// 是否允许注册到注册中心，暂时注释掉
-@RestController
 @EnableFeignClients
 @EnableChoerodonResourceServer// 是否开启猪齿鱼资源服务器，暂时注释掉，该注解开启了 Jwt_Token 的校验，本地测试不需要。
 public class HzeroTodoServiceApplication {

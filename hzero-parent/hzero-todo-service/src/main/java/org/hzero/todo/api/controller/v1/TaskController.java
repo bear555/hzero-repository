@@ -85,6 +85,8 @@ public class TaskController extends BaseController {
         return Results.success(taskRepository.selectDetailByTaskNumber(taskNumber));
     }
 
+
+
     @Permission(level = ResourceLevel.SITE)
     @ApiOperation(value = "根据taskNumber删除task")
     @DeleteMapping("/{taskNumber}")

@@ -3,8 +3,8 @@ spring:
     name: hzero-iam
   datasource:
     url: ${SPRING_DATASOURCE_URL:jdbc:mysql://db.hzero.org:3306/hzero_platform?useUnicode=true&characterEncoding=utf-8&useSSL=false}
-    username: ${SPRING_DATASOURCE_USERNAME:root}
-    password: ${SPRING_DATASOURCE_PASSWORD:root}
+    username: ${SPRING_DATASOURCE_USERNAME:hzero}
+    password: ${SPRING_DATASOURCE_PASSWORD:hzero}
     hikari:
       # 连接池最小空闲连接数
       minimum-idle: ${SPRING_DATASOURCE_MINIMUM_IDLE:20}
@@ -14,7 +14,6 @@ spring:
       connection-timeout: ${SPRING_DATASOURCE_CONNECTION_TIMEOUT:30000}
   redis:
     host: ${SPRING_REDIS_HOST:redis.hzero.org}
-#    host: ${SPRING_REDIS_HOST: 172.16.211.160:10179}
     port: ${SPRING_REDIS_PORT:6379}
     database: ${SPRING_REDIS_DATABASE:1}
     jedis:
@@ -93,23 +92,9 @@ mybatis:
     mapUnderscoreToCamelCase: true
 
 choerodon:
-  # 刷新权限时是否清除旧的权限
-  cleanPermission: ${CHOERODON_CLEAN_PERMISSION:false}
   resource:
     # 匹配的资源才会解析JwtToken便于得到UserDetails
     pattern: ${CHOERODON_RESOURCE_PATTERN:/v1/*,/hzero/*}
-
-  # 监听 Eureka 服务注册事件
-  eureka:
-    event:
-      # 是否自动刷新服务权限
-      parse-permission: ${CHOERODON_EUREKA_EVENT_PARSE_PERMISSION:true}
-      # 解析权限时，拉取服务文档重试次数
-      retry-time: 30
-      # 解析权限时，拉取服务文档重试间隔时间
-      retry-interval: 10
-      # 不需要刷新权限的服务
-      skip-services: ${CHOERODON_EUREKA_EVENT_SKIP_SERVICES:zipkin**, **gateway**, **register**, **oauth**}
 
 hzero:
   data:
@@ -166,6 +151,21 @@ hzero:
   import:
     # 初始化导入表，第一次启动服务的时候需开启此设置
     init-table: ${HZERO_IMPORT_INIT-TABLE:false}
+  tenant:
+    init:
+      # 是否开启拦截，只有开启才会拦截租户的新增和更新
+      aspect:
+        enabled: ${TENANT_INIT_ASPECT:false}
+  field-permission:
+    # 是否启用字段权限
+    enable: ${HZERO_FIELD_PERMISSION_ENABLE:true}
+  permission:
+    # 是否自动刷新服务权限
+    parse-permission: ${HZERO_PERMISSION_PARSE_PERMISSION:true}
+    # 不需要刷新权限的服务
+    skip-parse-services: ${HZERO_PERMISSION_SKIP_PARSE_SERVICES:register, gateway, oauth, swagger}
+    # 刷新权限时是否清除旧的权限
+    clean-permission: ${HZERO_PERMISSION_CLEAN_PERMISSION:false}
 
 logging:
   level:
